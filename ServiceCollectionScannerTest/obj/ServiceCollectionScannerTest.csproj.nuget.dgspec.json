@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj": {}
+  },
+  "projects": {
+    "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
+        "projectName": "ServiceCollectionScannerTest",
+        "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
+        "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
+        "outputPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
+                "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
+        "projectName": "ServiceCollectionScanner",
+        "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
+        "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
+        "outputPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\devel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

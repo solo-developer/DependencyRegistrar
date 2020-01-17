@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {}
+    "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {}
   },
   "projects": {
-    "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
+    "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
+        "projectUniqueName": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
         "projectName": "ServiceCollectionScanner",
-        "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
+        "projectPath": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj",
         "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
-        "outputPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\obj\\",
+        "outputPath": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

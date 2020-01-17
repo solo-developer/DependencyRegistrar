@@ -26,20 +26,28 @@ namespace ServiceCollectionScanner
                 throw new NonNullValueException("File location/s must be specified.");
             }
 
-            List<Assembly> assemblies = new List<Assembly>();
             List<Type> types = new List<Type>();
 
             try
             {
                 foreach (var directory in requirement.directory_locations)
                 {
-                    string[] fileEntries = Directory.GetFiles(directory);
+                    string[] fileEntries = null;
+                    try
+                    {
+                        fileEntries = Directory.GetFiles(directory);
+                    }
+                    catch (Exception)
+                    {
+                        throw new InvalidFileLocationException();
+                    }
+
                     foreach (string fileLocation in fileEntries)
                     {
                         Assembly asm = Assembly.LoadFrom(fileLocation);
+
                         List<Type> typesInAssembly = asm.GetTypes().ToList();
 
-                        assemblies.Add(asm);
                         types.AddRange(typesInAssembly);
                     }
                 }
@@ -55,9 +63,9 @@ namespace ServiceCollectionScanner
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-
+                throw;
             }
         }
     }

@@ -1665,11 +1665,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
+      "projectUniqueName": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
       "projectName": "ServiceCollectionScannerTest",
-      "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
+      "projectPath": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScannerTest\\ServiceCollectionScannerTest.csproj",
       "packagesPath": "C:\\Users\\devel\\.nuget\\packages\\",
-      "outputPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScannerTest\\obj\\",
+      "outputPath": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScannerTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1690,8 +1690,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
-              "projectPath": "G:\\backup\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj"
+            "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj": {
+              "projectPath": "G:\\backup\\ServiceCollectionRegistrationImplementationScanner\\ServiceCollectionScanner\\ServiceCollectionScanner.csproj"
             }
           }
         }

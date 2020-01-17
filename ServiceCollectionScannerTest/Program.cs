@@ -14,7 +14,7 @@ namespace ServiceCollectionScannerTest
                 IServiceCollection services = new ServiceCollection();
 
                 List<string> directories = new List<string>();
-                directories.Add($@"G:\backup\ServiceCollectionScanner\ServiceCollectionScanner\ServiceCollectionScannerTest\DependencyResolver");
+                directories.Add($@"G:\backup\ServiceCollectionRegistrationImplementationScanner\ServiceCollectionScannerTesting\DependencyResolver");
 
                 services.Scan<IScanner>(act => act.directory_locations = directories);
             }

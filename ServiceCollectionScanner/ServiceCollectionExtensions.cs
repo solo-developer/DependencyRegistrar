@@ -33,14 +33,11 @@ namespace ServiceCollectionScanner
                 foreach (var directory in requirement.directory_locations)
                 {
                     string[] fileEntries = null;
-                    try
-                    {
-                        fileEntries = Directory.GetFiles(directory);
-                    }
-                    catch (Exception)
+                    if (!Directory.Exists(directory))
                     {
                         throw new InvalidFileLocationException();
                     }
+                    fileEntries = Directory.GetFiles(directory, "*.dll");
 
                     foreach (string fileLocation in fileEntries)
                     {
